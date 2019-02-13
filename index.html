@@ -67,7 +67,30 @@
 	  <a href="#" class="booking-button">поиск гостиницы в седоне</a>
 	</section>
 	<section class="modal-form">
-	<!-- Тут форма -->
+	<form class="search-hotels-form" action="" method="post">
+	  <h2>Поиск гостиницы в седоне</h2>
+	  <p class="search-hotels-item">
+        <label for="check-in-date">Дата заезда:</label>
+		<input type="date" id="check-in-date" name="check-in-date" />
+      </p>
+	  <p class="search-hotels-item">
+	    <label for="check-out-date">Дата выезда:</label>
+		<input type="date" id="check-out-date" name="check-out-date" />
+	  </p>
+	  <p class="search-hotels-item-adults">
+	    <label for="adults">Взрослые</label>
+	    <img src="img/plus.png" alt="plus sign">
+		<input name="adults" id="adults" type="text" maxlength="1" min="1" />
+		<img src="img/minus.png" alt="minus sign">
+	  </p>
+	  <p class="search-hotels-item-kids">
+	    <label for="kids">Дети</label>
+		<img src="img/plus.png" alt="plus sign">
+		<input name="kids" id="adults" type="text" maxlength="1" min="1" />
+		<img src="img/minus.png" alt="minus sign">
+	  </p>
+	  <button class="search" type="submit">Найти</button>
+	</form>
 	</section>
 	<section class="map">
     <!-- КАРТА -->

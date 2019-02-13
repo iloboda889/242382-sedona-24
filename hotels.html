@@ -21,6 +21,45 @@
   <main>
   <h1 class="visibility-hidden">sedona</h1>
   <!-- Форма -->
+  <form class="search-hotel-form" action="" method="post">
+    <div class="hotel-infrastructure">
+	  <h3>Инфраструктура</h3>
+	  <p>
+	    <label for="pool">Бассейн</label>
+	    <input type="checkbox" name="pool" checked>
+	  </p>
+	  <p>
+	    <label for="parking">Парковка</label>
+	    <input type="checkbox" name="parking">
+	  </p>
+	  <p>
+	    <label for="wifi">Wi-Fi</label>
+	    <input type="checkbox" name="wifi">
+	  </p>
+	</div>
+	<div class="hotel-accommodation-type">
+	  <h3>Тип жилья</h3>
+	  <p>
+	    <label for="hotel">Гостиница</label>
+	    <input type="checkbox" name="hotel" checked>
+	  </p>
+	  <p>
+	    <label for="motel">Мотель</label>
+	    <input type="checkbox" name="motel" checked>
+	  </p>
+	  <p>
+	    <label for="apartments">Апартаменты</label>
+	    <input type="checkbox" name="apartments" checked>
+	  </p>
+	</div>
+	<div class="hotel-price-range">
+	  <h3>Стоимость в сутки(р)</h3>
+	  <p>От 0</p>
+	  <p>До 3000</p>
+	  <input type="range" min="0" max="3000" value="0" />
+	  <button type="submit">Показать</button> 
+	</div>
+  </form>
   <section class="search-result">
     <p>найдено: 3</p>
     <ul class="sorting-result">
