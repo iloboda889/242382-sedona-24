@@ -20,44 +20,50 @@
   </header>
   <main>
   <h1 class="visibility-hidden">sedona</h1>
-  <form class="search-hotel-form" action="" method="post">
-    <div class="hotel-infrastructure">
-	  <h3>Инфраструктура</h3>
+  <form class="search-hotel-form" action="https://echo.htmlacademy.ru" method="post">
+    <fieldset class="hotel-infrastructure">
+	  <legend>Инфраструктура:</legend>
 	  <p>
-	    <label for="pool">Бассейн</label>
-	    <input type="checkbox" name="pool" checked>
+	    <label for="pool">
+		  <input type="checkbox" name="pool" value="Бассейн" checked />
+		  Бассейн
+		</label>
 	  </p>
 	  <p>
-	    <label for="parking">Парковка</label>
-	    <input type="checkbox" name="parking">
+	    <label for="parking">
+		  <input type="checkbox" name="parking" value="Парковка" />
+		  Парковка
+		</label>
 	  </p>
 	  <p>
-	    <label for="wifi">Wi-Fi</label>
-	    <input type="checkbox" name="wifi">
+	    <label for="wifi">
+		  <input type="checkbox" name="wifi" value="WI-FI">
+		  WI-FI
+		</label>
 	  </p>
-	</div>
-	<div class="hotel-accommodation-type">
-	  <h3>Тип жилья</h3>
+	</fieldset>
+	<fieldset class="hotel-accommodation">
+	  <legend>Тип жилья:</legend>
 	  <p>
-	    <label for="hotel">Гостиница</label>
-	    <input type="checkbox" name="hotel" checked>
+	    <label for="hotel">
+		  <input type="checkbox" name="hotel" value="Гостиница" checked />
+		  Гостиница
+		</label>
 	  </p>
 	  <p>
-	    <label for="motel">Мотель</label>
-	    <input type="checkbox" name="motel" checked>
+	    <label for="motel">
+		  <input type="checkbox" name="motel" value="Мотель" checked />
+		  Мотель
+		</label>
 	  </p>
 	  <p>
-	    <label for="apartments">Апартаменты</label>
-	    <input type="checkbox" name="apartments" checked>
+	    <label for="apartment">
+		  <input type="checkbox" name="apartment" value="Апартаменты" checked />
+		  Апартаменты
+		</label>
 	  </p>
-	</div>
-	<div class="hotel-price-range">
-	  <h3>Стоимость в сутки(р)</h3>
-	  <p>От 0</p>
-	  <p>До 3000</p>
-	  <input type="range" min="0" max="3000" value="0" />
-	  <button type="submit">Показать</button> 
-	</div>
+	</fieldset>
+	
   </form>
   <section class="search-result">
     <p>найдено: 3</p>
