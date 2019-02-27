@@ -1,0 +1,158 @@
+/*** Global ***/
+body {
+  margin: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  background-color: #f1f1f1;
+  
+}
+
+a { 
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+/*** End Of Global ***/
+
+/*** index.html ***/
+.main-header {
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.img-logo { 
+  width: 138px;
+  height: 72px;
+}
+
+.site-navigation > li a {
+  color: #000;
+}
+
+.welcome-logo {
+  background-image: url(../img/bg-photo.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.logo-message {
+  text-align: center;
+}
+
+.introduction h2 {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.introduction h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d7d7d;
+  line-height: 26px;
+  text-align: center;
+}
+
+.booking {
+  background-color: #fff;
+}
+
+.booking > p:nth-child(1) {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.booking > p:nth-child(2) {
+  font-size: 14px;
+  line-height: 24px;
+  color: #7d7d7d;
+  text-align: center;
+}
+
+.booking-button {
+  background-color: #766357;
+  font-size: 21px;
+  line-height: 26px;
+  color: white;
+}
+
+.modal-form {
+  display: none;
+}
+
+.main-footer {
+  background-color: #fdfdfd;
+}
+
+.main-footer b {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.footer-copyright a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color:  #000;
+}
+/*** end of index.html ***/
+/*** hotels.html ***/
+.search-result {
+  background-color: #fff;
+}
+
+.hotel {
+  background-color: #fff;
+}
+
+.hotel-info h2 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.hotel-info p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hotel-info a.hotel-details {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #fff;
+  background-color: #81b3d2;
+  text-align: center;
+}
+
+.hotel-info a.hotel-book {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #fff;
+  background-color: #766357;
+  text-align: center;
+}
+
+.hotel-rating {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #b9b9b9;
+  background-color: #f2f2f2;
+}
+/*** end of hotels.html ***/

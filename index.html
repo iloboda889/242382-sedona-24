@@ -3,32 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet"/>
   </head>
-  <body>
+<body>
   <header class="main-header">
     <nav class="main-navigation">
 	  <a href="#">
 	    <img class="img-logo" src="img/logo-sedona.svg" alt="" />
 	  </a>
 	  <ul class="site-navigation">
-	   <li><a href="#">информация</a></li>
-	   <li><a href="#">фото и видео</a></li>
-	   <li><a href="#">карта штата</a></li>
-	   <li><a href="hotels.html">гостиницы</a></li>
+	    <li><a href="#">информация</a></li>
+	    <li><a href="#">фото и видео</a></li>
+	    <li><a href="#">карта штата</a></li>
+	    <li><a href="hotels.html">гостиницы</a></li>
 	  </ul>
 	</nav>
   </header>
   <main class="container">	
     <div class="welcome-logo">
 	  <h1 class="visibility-hidden">sedona</h1>
-	  <img src="img/logo-message.png" alt="" />
+	  <div class="logo-message">
+	    <img src="img/logo-message.png" alt="" />
+	  </div>
 	</div>
 	<section class="introduction">
-	  <h2 class="introduction-header">
+	  <h2>
 	  седона - небольшой городок в аризоне,<br />
 	  заслуживающий большего!
 	  </h2>
-	  <h3 class="introduction-list-header">рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</h3>
+	  <h3>рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</h3>
       <ol class="feature-list">
 	    <li>
 		  <ul>
@@ -68,7 +72,6 @@
 	</section>
 	<section class="modal-form">
 	<form class="arrangement-hotel-form" action="" method="get">
-	  <h2>Поиск гостиницы в седоне</h2>
 	  <p class="search-hotels-item">
         <label for="check-in-date">Дата заезда:</label>
 		<input type="text" id="check-in-date" name="check-in-date" />
@@ -89,7 +92,7 @@
 		<input name="kids" id="adults" type="text" maxlength="1" min="1" />
 		<button class="minus-button">-</button>
 	  </p>
-	  <button class="search" type="submit">Найти</button>
+	  <button class="search-hotels-button" type="submit">Найти</button>
 	</form>
 	</section>
 	<section class="map">
